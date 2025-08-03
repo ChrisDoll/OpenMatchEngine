@@ -1,0 +1,4 @@
+﻿<record>
+	<!-- store a list of all the resources in this folder -->
+	<boolean id="store_resource_list" value="true"/>
+</record>

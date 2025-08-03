@@ -1,0 +1,1033 @@
+﻿<record>
+	<record id="0" folder="control_possession" tactical_style_id="CONTROL_POSSESSION">
+		<list id="description">
+			<translation id="1" translation_id="466639" type="use" value="Aims to dictate play[COMMENT: tactical style short string description]" />
+			<translation id="2" translation_id="466631" type="use" value="Patiently wait for openings[COMMENT: tactical style short string description]" />
+		</list>
+		<translation id="text" translation_id="466640" type="use" value="Control Possession[COMMENT: tactical style name]" />
+		<translation id="hint" translation_id="466641" type="use" value="A tactic that focuses on retaining possession and pressing high to win the ball back. Looks to play out of defence and create chances through patient, short-passing build-up play.[COMMENT: description for tactical style Control Possession]" />
+		<list id="attribute_template">
+			<!--ATTACKING-->
+			<record id="0">
+				<integer id="min" value="11" />
+				<integer id="max" value="15" />
+			</record>
+			<!--DEPTH-->
+			<record id="19">
+				<integer id="min" value="4" />
+				<integer id="max" value="8" />
+			</record>
+			<!--DIRECTNESS-->
+			<record id="3">
+				<integer id="min" value="4" />
+				<integer id="max" value="8" />
+			</record>
+			<!--FLUIDITY-->
+			<record id="20">
+				<integer id="min" value="10" />
+				<integer id="max" value="16" />
+			</record>
+			<!--CLOSING_DOWN-->
+			<record id="10">
+				<integer id="min" value="15" />
+				<integer id="max" value="19" />
+			</record>
+			<!--TEMPO-->
+			<record id="24">
+				<integer id="min" value="6" />
+				<integer id="max" value="10" />
+			</record>
+			<!--WIDTH-->
+			<record id="25">
+				<integer id="min" value="10" />
+				<integer id="max" value="14" />
+			</record>
+		</list>
+		<list id="tendency_template">
+			<!--NPT_TENDENCY_TO_PLAY_OUT_OF_DEFENCE-->
+			<record id="85">
+				<integer id="min" value="10" />
+				<integer id="max" value="20" />
+			</record>
+			<!--NPT_TENDENCY_TO_WORK_BALL_INTO_BOX-->
+			<record id="84">
+				<integer id="min" value="10" />
+				<integer id="max" value="20" />
+			</record>
+			<!--NPT_TENDENCY_TO_PRESS_INTENSELY-->
+			<record id="90">
+				<integer id="min" value="10" />
+				<integer id="max" value="20" />
+			</record>
+			<!--NPT_TENDENCY_TO_COUNTERPRESS-->
+			<record id="91">
+				<integer id="min" value="10" />
+				<integer id="max" value="20" />
+			</record>
+		</list>
+		<list id="preferred_roles">
+			<!--TPRF_ADVANCED_PLAYMAKER-->
+			<integer value="17" />
+			<!--TPRF_DEEP_LYING_FORWARD-->
+			<integer value="10" />
+			<!--TPRF_BALL_PLAYING_DEFENDER-->
+			<integer value="24" />
+			<!--TPRF_SWEEPER_KEEPER-->
+			<integer value="12" />
+		</list>
+
+		<list id="features_of_play">
+			<translation id="1" translation_id="555320" type="use" value="High Possession[COMMENT: AREA: Tactical styles; SUB-AREA: Feature of play; NOTE: Defining feature of a tactical style]" />
+			<translation id="2" translation_id="555321" type="use" value="Patient Attacks[COMMENT: AREA: Tactical styles; SUB-AREA: Feature of play; NOTE: Defining feature of a tactical style]" />
+			<translation id="3" translation_id="555322" type="use" value="Space Behind Own Defence[COMMENT: AREA: Tactical styles; SUB-AREA: Feature of play; NOTE: Defining feature of a tactical style]" />
+		</list>
+		
+		<list id="favoured_attributes">
+			<translation id="1" translation_id="227881" type="use" value="Passing" />
+			<translation id="2" translation_id="227914" type="use" value="Composure" />
+			<translation id="3" translation_id="230023" type="use" value="Vision" />
+		</list>
+	</record>
+
+	<record id="1" folder="gegenpress" tactical_style_id="GEGENPRESS">
+		<list id="description">
+			<translation id="1" translation_id="466627" type="use" value="Instantly win back possession[COMMENT: tactical style short string description]" />
+			<translation id="2" translation_id="466628" type="use" value="High-intensity running[COMMENT: tactical style short string description]" />
+		</list>
+		<translation id="text" translation_id="466629" type="use" value="Gegenpress[COMMENT: tactical style name]" />
+		<translation id="hint" translation_id="466630" type="use" value="Gegenpressing relies on every player in the team working hard and, above all else, being fit and mobile enough to press the opposition immediately after losing the ball.[COMMENT: description for tactical style Gegenpress]" />
+		<list id="attribute_template">
+			<!--ATTACKING-->
+			<record id="0">
+				<integer id="min" value="11" />
+				<integer id="max" value="15" />
+			</record>
+			<!--DEPTH-->
+			<record id="19">
+				<integer id="min" value="1" />
+				<integer id="max" value="5" />
+			</record>
+			<!--DIRECTNESS-->
+			<record id="3">
+				<integer id="min" value="8" />
+				<integer id="max" value="12" />
+			</record>
+			<!--FLUIDITY-->
+			<record id="20">
+				<integer id="min" value="10" />
+				<integer id="max" value="16" />
+			</record>
+			<!--DIRTINESS_ALLOWANCE-->
+			<record id="40">
+				<integer id="min" value="-1" />
+				<integer id="max" value="-1" />
+			</record>
+			<!--CLOSING_DOWN-->
+			<record id="10">
+				<integer id="min" value="18" />
+				<integer id="max" value="20" />
+			</record>
+			<!--TEMPO-->
+			<record id="24">
+				<integer id="min" value="18" />
+				<integer id="max" value="20" />
+			</record>
+			<!--WIDTH-->
+			<record id="25">
+				<integer id="min" value="5" />
+				<integer id="max" value="9" />
+			</record>
+		</list>
+		<list id="tendency_template">
+			<!--NPT_TENDENCY_TO_USE_COUNTER_ATTACKING-->
+			<record id="21">
+				<integer id="min" value="13" />
+				<integer id="max" value="20" />
+			</record>
+			<!--NPT_TENDENCY_TO_MAN_MARK-->
+			<record id="76">
+				<integer id="min" value="10" />
+				<integer id="max" value="20" />
+			</record>
+			<!--NPT_TENDENCY_TO_HOLD_DEFENSIVE_LINE-->
+			<record id="77">
+				<integer id="min" value="13" />
+				<integer id="max" value="20" />
+			</record>
+			<!--NPT_TENDENCY_TO_PRESS_INTENSELY-->
+			<record id="90">
+				<integer id="min" value="15" />
+				<integer id="max" value="20" />
+			</record>
+			<!--NPT_TENDENCY_TO_COUNTERPRESS-->
+			<record id="91">
+				<integer id="min" value="15" />
+				<integer id="max" value="20" />
+			</record>
+		</list>
+		<list id="preferred_roles">
+			<!--TPRF_PRESSING_FORWARD-->
+			<integer value="31" />
+			<!--TPRF_INSIDE_FORWARD-->
+			<integer value="27" />
+			<!--TPRF_SHADOW_STRIKER-->
+			<integer value="41" />
+			<!--TPRF_BOX_TO_BOX_MIDFIELDER-->
+			<integer value="16" />
+			<!--TPRF_SWEEPER_KEEPER-->
+			<integer value="12" />
+		</list>
+		
+		<list id="features_of_play">
+			<translation id="1" translation_id="555323" type="use" value="Win Possession In Attacking Areas[COMMENT: AREA: Tactical styles; SUB-AREA: Feature of play; NOTE: Defining feature of a tactical style]" />
+			<translation id="2" translation_id="555324" type="use" value="High Speed Counter-Attacks[COMMENT: AREA: Tactical styles; SUB-AREA: Feature of play; NOTE: Defining feature of a tactical style]" />
+			<translation id="3" translation_id="555325" type="use" value="Physically Demanding[COMMENT: AREA: Tactical styles; SUB-AREA: Feature of play; NOTE: Defining feature of a tactical style]" />
+		</list>
+		
+		<list id="favoured_attributes">
+			<translation id="1" translation_id="227898" type="use" value="Stamina" />
+			<translation id="2" translation_id="227769" type="use" value="Acceleration" />
+			<translation id="3" translation_id="227805" type="use" value="Dribbling" />
+		</list>
+	</record>
+
+	<record id="2" folder="tiki-taka" tactical_style_id="TIKI_TAKA">
+		<list id="description">
+			<translation id="1" translation_id="466634" type="use" value="Dominate possession[COMMENT: tactical style short string description]" />
+			<translation id="2" translation_id="466635" type="use" value="Relentless pressing[COMMENT: tactical style short string description]" />
+			<translation id="3" translation_id="466631" type="use" value="Patiently wait for openings[COMMENT: tactical style short string description]" />
+		</list>
+		<translation id="text" translation_id="466632" type="use" value="Tiki-Taka[COMMENT: tactical style name]" />
+		<translation id="hint" translation_id="466633" type="use" value="Tiki-Taka places the emphasis on short passing, extreme pressing and movement, waiting for space to open up as opponents lose focus. An extreme variant of the Control Possession style.[COMMENT: description for tactical style Tiki-Taka]" />
+		<list id="attribute_template">
+			<!--ATTACKING-->
+			<record id="0">
+				<integer id="min" value="11" />
+				<integer id="max" value="15" />
+			</record>
+			<!--DEPTH-->
+			<record id="19">
+				<integer id="min" value="1" />
+				<integer id="max" value="5" />
+			</record>
+			<!--DIRECTNESS-->
+			<record id="3">
+				<integer id="min" value="1" />
+				<integer id="max" value="5" />
+			</record>
+			<!--FLUIDITY-->
+			<record id="20">
+				<integer id="min" value="14" />
+				<integer id="max" value="20" />
+			</record>
+			<!--DIRTINESS_ALLOWANCE-->
+			<record id="40">
+				<integer id="min" value="-1" />
+				<integer id="max" value="-1" />
+			</record>
+			<!--CLOSING_DOWN-->
+			<record id="10">
+				<integer id="min" value="18" />
+				<integer id="max" value="20" />
+			</record>
+			<!--TEMPO-->
+			<record id="24">
+				<integer id="min" value="1" />
+				<integer id="max" value="5" />
+			</record>
+			<!--WIDTH-->
+			<record id="25">
+				<integer id="min" value="5" />
+				<integer id="max" value="9" />
+			</record>
+		</list>
+		<list id="tendency_template">
+			<!--NPT_TENDENCY_TO_RELY_ON_SET_PIECES-->
+			<record id="38">
+				<integer id="min" value="1" />
+				<integer id="max" value="10" />
+			</record>
+			<!--NPT_TENDENCY_TO_USE_COUNTER_ATTACKING-->
+			<record id="21">
+				<integer id="min" value="1" />
+				<integer id="max" value="10" />
+			</record>
+			<!--NPT_TENDENCY_TO_PLAY_OUT_OF_DEFENCE-->
+			<record id="85">
+				<integer id="min" value="13" />
+				<integer id="max" value="20" />
+			</record>
+			<!--NPT_TENDENCY_TO_HOLD_DEFENSIVE_LINE-->
+			<record id="77">
+				<integer id="min" value="10" />
+				<integer id="max" value="20" />
+			</record>
+			<!--NPT_TENDENCY_TO_USE_CROSSES-->
+			<record id="80">
+				<integer id="min" value="1" />
+				<integer id="max" value="7" />
+			</record>
+			<!--NPT_TENDENCY_TO_WORK_BALL_INTO_BOX-->
+			<record id="84">
+				<integer id="min" value="13" />
+				<integer id="max" value="20" />
+			</record>
+			<!--NPT_TENDENCY_TO_PRESS_INTENSELY-->
+			<record id="90">
+				<integer id="min" value="13" />
+				<integer id="max" value="20" />
+			</record>
+			<!--NPT_TENDENCY_TO_COUNTERPRESS-->
+			<record id="91">
+				<integer id="min" value="13" />
+				<integer id="max" value="20" />
+			</record>
+		</list>
+		<list id="preferred_roles">
+			<!--TPRF_BALL_PLAYING_DEFENDER-->
+			<integer value="24" />
+			<!--TPRF_DEEP_LYING_FORWARD-->
+			<integer value="10" />
+			<!--TPRF_FALSE_NUMBER_NINE-->
+			<integer value="40" />
+			<!--TPRF_ADVANCED_PLAYMAKER-->
+			<integer value="17" />
+			<!--TPRF_SWEEPER_KEEPER-->
+			<integer value="12" />
+		</list>
+		
+		<list id="features_of_play">
+			<translation id="1" translation_id="555320" type="use" value="High Possession[COMMENT: AREA: Tactical styles; SUB-AREA: Feature of play; NOTE: Defining feature of a tactical style]" />
+			<translation id="2" translation_id="555326" type="use" value="Highly Creative[COMMENT: AREA: Tactical styles; SUB-AREA: Feature of play; NOTE: Defining feature of a tactical style]" />
+			<translation id="3" translation_id="555327" type="use" value="Slower Play[COMMENT: AREA: Tactical styles; SUB-AREA: Feature of play; NOTE: Defining feature of a tactical style]" />
+		</list>
+
+		<list id="favoured_attributes">
+			<translation id="1" translation_id="227914" type="use" value="Composure" />
+			<translation id="2" translation_id="227881" type="use" value="Passing" />
+			<translation id="3" translation_id="227812" type="use" value="Flair" />
+		</list>
+	</record>
+
+	<record id="3" folder="vertical_tiki-taka" tactical_style_id="VERTICAL_TIKI_TAKA">
+		<list id="description">
+			<translation id="1" translation_id="466634" type="use" value="Dominate possession[COMMENT: tactical style short string description]" />
+			<translation id="2" translation_id="466635" type="use" value="Relentless pressing[COMMENT: tactical style short string description]" />
+			<translation id="3" translation_id="466636" type="use" value="Emphasis on moving the ball vertically rather than side-to-side[COMMENT: tactical style short string description]" />
+		</list>
+		<translation id="text" translation_id="466637" type="use" value="Vertical Tiki-Taka[COMMENT: tactical style name]" />
+		<translation id="hint" translation_id="466638" type="use" value="A quick passing style of possession and movement, with a narrower, more direct approach than the standard Tiki-Taka.[COMMENT: description for tactical style Vertical Tiki-Taka]" />
+		<list id="attribute_template">
+			<!--ATTACKING-->
+			<record id="0">
+				<integer id="min" value="8" />
+				<integer id="max" value="12" />
+			</record>
+			<!--DEPTH-->
+			<record id="19">
+				<integer id="min" value="5" />
+				<integer id="max" value="9" />
+			</record>
+			<!--DIRECTNESS-->
+			<record id="3">
+				<integer id="min" value="4" />
+				<integer id="max" value="8" />
+			</record>
+			<!--FLUIDITY-->
+			<record id="20">
+				<integer id="min" value="12" />
+				<integer id="max" value="18" />
+			</record>
+			<!--DIRTINESS_ALLOWANCE-->
+			<record id="40">
+				<integer id="min" value="-1" />
+				<integer id="max" value="-1" />
+			</record>
+			<!--CLOSING_DOWN-->
+			<record id="10">
+				<integer id="min" value="14" />
+				<integer id="max" value="18" />
+			</record>
+			<!--TEMPO-->
+			<record id="24">
+				<integer id="min" value="4" />
+				<integer id="max" value="8" />
+			</record>
+			<!--WIDTH-->
+			<record id="25">
+				<integer id="min" value="1" />
+				<integer id="max" value="5" />
+			</record>
+		</list>
+		<list id="tendency_template">
+			<!--NPT_TENDENCY_TO_RELY_ON_SET_PIECES-->
+			<record id="38">
+				<integer id="min" value="1" />
+				<integer id="max" value="10" />
+			</record>
+			<!--NPT_TENDENCY_TO_USE_COUNTER_ATTACKING-->
+			<record id="21">
+				<integer id="min" value="1" />
+				<integer id="max" value="10" />
+			</record>
+			<!--NPT_TENDENCY_TO_PLAY_OUT_OF_DEFENCE-->
+			<record id="85">
+				<integer id="min" value="13" />
+				<integer id="max" value="20" />
+			</record>
+			<!--NPT_TENDENCY_TO_HOLD_DEFENSIVE_LINE-->
+			<record id="77">
+				<integer id="min" value="10" />
+				<integer id="max" value="20" />
+			</record>
+			<!--NPT_TENDENCY_TO_USE_CROSSES-->
+			<record id="80">
+				<integer id="min" value="1" />
+				<integer id="max" value="7" />
+			</record>
+			<!--NPT_TENDENCY_TO_LOOK_FOR_UNDERLAP-->
+			<record id="81">
+				<integer id="min" value="10" />
+				<integer id="max" value="20" />
+			</record>
+			<!--NPT_TENDENCY_TO_LOOK_FOR_OVERLAP-->
+			<record id="82">
+				<integer id="min" value="1" />
+				<integer id="max" value="10" />
+			</record>
+			<!--NPT_TENDENCY_TO_WORK_BALL_INTO_BOX-->
+			<record id="84">
+				<integer id="min" value="13" />
+				<integer id="max" value="20" />
+			</record>
+			<!--NPT_TENDENCY_TO_FOCUS_PLAY_DOWN_THE_FLANKS-->
+			<record id="89">
+				<integer id="min" value="1" />
+				<integer id="max" value="7" />
+			</record>
+			<!--NPT_TENDENCY_TO_PRESS_INTENSELY-->
+			<record id="90">
+				<integer id="min" value="13" />
+				<integer id="max" value="20" />
+			</record>
+			<!--NPT_TENDENCY_TO_COUNTERPRESS-->
+			<record id="91">
+				<integer id="min" value="13" />
+				<integer id="max" value="20" />
+			</record>
+		</list>
+		<list id="preferred_roles">
+			<!--TPRF_REGISTA-->
+			<integer value="39" />
+			<!--TPRF_MEZZALA-->
+			<integer value="47" />
+			<!--TPRF_WING_BACK-->
+			<integer value="3" />
+			<!--TPRF_INSIDE_FORWARD-->
+			<integer value="27" />
+			<!--TPRF_DEEP_LYING_PLAYMAKER-->
+			<integer value="15" />
+		</list>
+		
+		<list id="features_of_play">
+			<translation id="1" translation_id="555328" type="use" value="Unpredictable Movement[COMMENT: AREA: Tactical styles; SUB-AREA: Feature of play; NOTE: Defining feature of a tactical style]" />
+			<translation id="2" translation_id="555323" type="use" value="Win Possession In Attacking Areas[COMMENT: AREA: Tactical styles; SUB-AREA: Feature of play; NOTE: Defining feature of a tactical style]" />
+			<translation id="3" translation_id="555322" type="use" value="Space Behind Own Defence[COMMENT: AREA: Tactical styles; SUB-AREA: Feature of play; NOTE: Defining feature of a tactical style]" />
+		</list>
+
+		<list id="favoured_attributes">
+			<translation id="1" translation_id="230023" type="use" value="Vision" />
+			<translation id="2" translation_id="227904" type="use" value="Technique" />
+			<translation id="3" translation_id="227898" type="use" value="Stamina" />
+		</list>	
+	</record>
+
+	<record id="4" folder="wing_play" tactical_style_id="WING_PLAY">
+		<list id="description">
+			<translation id="1" translation_id="466642" type="use" value="Looks to get quality crosses into the box[COMMENT: tactical style short string description]" />
+			<translation id="2" translation_id="466643" type="use" value="Overloads the wide areas[COMMENT: tactical style short string description]" />
+		</list>
+		<translation id="text" translation_id="466644" type="use" value="Wing Play[COMMENT: tactical style name]" />
+		<translation id="hint" translation_id="466645" type="use" value="Players will look to get the ball out wide as early as possible, while full-backs will look to overlap and exploit the wide areas. Once the ball is out wide, the main focus will be to cross the ball into the box.[COMMENT: description for tactical style Wing Play]" />
+		<list id="attribute_template">
+			<!--ATTACKING-->
+			<record id="0">
+				<integer id="min" value="8" />
+				<integer id="max" value="12" />
+			</record>
+			<!--DEPTH-->
+			<record id="19">
+				<integer id="min" value="10" />
+				<integer id="max" value="14" />
+			</record>
+			<!--DIRECTNESS-->
+			<record id="3">
+				<integer id="min" value="12" />
+				<integer id="max" value="16" />
+			</record>
+			<!--FLUIDITY-->
+			<record id="20">
+				<integer id="min" value="7" />
+				<integer id="max" value="13" />
+			</record>
+			<!--DIRTINESS_ALLOWANCE-->
+			<record id="40">
+				<integer id="min" value="-1" />
+				<integer id="max" value="-1" />
+			</record>
+			<!--CLOSING_DOWN-->
+			<record id="10">
+				<integer id="min" value="4" />
+				<integer id="max" value="8" />
+			</record>
+			<!--TEMPO-->
+			<record id="24">
+				<integer id="min" value="13" />
+				<integer id="max" value="17" />
+			</record>
+			<!--WIDTH-->
+			<record id="25">
+				<integer id="min" value="18" />
+				<integer id="max" value="20" />
+			</record>
+		</list>
+		<list id="tendency_template">
+			<!--NPT_TENDENCY_TO_USE_CROSSES-->
+			<record id="80">
+				<integer id="min" value="13" />
+				<integer id="max" value="20" />
+			</record>
+			<!--NPT_TENDENCY_TO_LOOK_FOR_UNDERLAP-->
+			<record id="81">
+				<integer id="min" value="1" />
+				<integer id="max" value="7" />
+			</record>
+			<!--NPT_TENDENCY_TO_LOOK_FOR_OVERLAP-->
+			<record id="82">
+				<integer id="min" value="13" />
+				<integer id="max" value="20" />
+			</record>
+			<!--NPT_TENDENCY_TO_FOCUS_PLAY_DOWN_THE_FLANKS-->
+			<record id="89">
+				<integer id="min" value="13" />
+				<integer id="max" value="20" />
+			</record>
+		</list>
+		<list id="preferred_roles">
+			<!--TPRF_WINGER-->
+			<integer value="7" />
+			<!--TPRF_WING_BACK-->
+			<integer value="3" />
+		</list>
+
+		<list id="features_of_play">
+			<translation id="1" translation_id="555329" type="use" value="High Volume Of Crosses[COMMENT: AREA: Tactical styles; SUB-AREA: Feature of play; NOTE: Defining feature of a tactical style]" />
+			<translation id="2" translation_id="555330" type="use" value="Outnumbers Opposition In Wide Areas[COMMENT: AREA: Tactical styles; SUB-AREA: Feature of play; NOTE: Defining feature of a tactical style]" />
+			<translation id="3" translation_id="555331" type="use" value="Reduced Central Threat[COMMENT: AREA: Tactical styles; SUB-AREA: Feature of play; NOTE: Defining feature of a tactical style]" />
+		</list>
+				
+		<list id="favoured_attributes">
+			<translation id="1" translation_id="227805" type="use" value="Dribbling" />
+			<translation id="2" translation_id="227798" type="use" value="Crossing" />
+			<translation id="3" translation_id="227776" type="use" value="Anticipation" />
+		</list>
+	</record>
+
+	<record id="5" folder="route_one" tactical_style_id="ROUTE_ONE">
+		<list id="description">
+			<translation id="1" translation_id="466646" type="use" value="Quick transitions[COMMENT: tactical style short string description]" />
+			<translation id="2" translation_id="466647" type="use" value="Direct passing[COMMENT: tactical style short string description]" />
+		</list>
+		<translation id="text" translation_id="466648" type="use" value="Route One[COMMENT: tactical style name]" />
+		<translation id="hint" translation_id="466649" type="use" value="The aim is to try to play the furthest forward pass available, with the intent to penetrate the opposition's penalty area as early as possible.[COMMENT: description for tactical style Route One]" />
+		<list id="attribute_template">
+			<!--ATTACKING-->
+			<record id="0">
+				<integer id="min" value="5" />
+				<integer id="max" value="9" />
+			</record>
+			<!--DEPTH-->
+			<record id="19">
+				<integer id="min" value="15" />
+				<integer id="max" value="19" />
+			</record>
+			<!--DIRECTNESS-->
+			<record id="3">
+				<integer id="min" value="18" />
+				<integer id="max" value="20" />
+			</record>
+			<!--FLUIDITY-->
+			<record id="20">
+				<integer id="min" value="7" />
+				<integer id="max" value="13" />
+			</record>
+			<!--DIRTINESS_ALLOWANCE-->
+			<record id="40">
+				<integer id="min" value="13" />
+				<integer id="max" value="17" />
+			</record>
+			<!--CLOSING_DOWN-->
+			<record id="10">
+				<integer id="min" value="6" />
+				<integer id="max" value="10" />
+			</record>
+			<!--TEMPO-->
+			<record id="24">
+				<integer id="min" value="10" />
+				<integer id="max" value="14" />
+			</record>
+			<!--WIDTH-->
+			<record id="25">
+				<integer id="min" value="4" />
+				<integer id="max" value="8" />
+			</record>
+		</list>
+		<list id="tendency_template">
+			<!--NPT_TENDENCY_TO_RELY_ON_SET_PIECES-->
+			<record id="38">
+				<integer id="min" value="13" />
+				<integer id="max" value="20" />
+			</record>
+			<!--NPT_TENDENCY_TO_PLAY_OUT_OF_DEFENCE-->
+			<record id="85">
+				<integer id="min" value="1" />
+				<integer id="max" value="7" />
+			</record>
+			<!--NPT_TENDENCY_TO_ALLOW_CREATIVE_FREEDOM-->
+			<record id="75">
+				<integer id="min" value="1" />
+				<integer id="max" value="7" />
+			</record>
+			<!--NPT_TENDENCY_TO_USE_CROSSES-->
+			<record id="80">
+				<integer id="min" value="13" />
+				<integer id="max" value="20" />
+			</record>
+			<!--NPT_TENDENCY_TO_WORK_BALL_INTO_BOX-->
+			<record id="84">
+				<integer id="min" value="1" />
+				<integer id="max" value="7" />
+			</record>
+		</list>
+		<list id="preferred_roles">
+			<!--TPRF_TARGET_MAN-->
+			<integer value="18" />
+			<!--TPRF_NO_NONSENSE_CENTRE_BACK-->
+			<integer value="29" />
+		</list>
+
+		<list id="features_of_play">
+			<translation id="1" translation_id="555332" type="use" value="Physically Overwhelms Defence[COMMENT: AREA: Tactical styles; SUB-AREA: Feature of play; NOTE: Defining feature of a tactical style]" />
+			<translation id="2" translation_id="555333" type="use" value="Utilises Set Pieces[COMMENT: AREA: Tactical styles; SUB-AREA: Feature of play; NOTE: Defining feature of a tactical style]" />
+			<translation id="3" translation_id="555334" type="use" value="Low Possession[COMMENT: AREA: Tactical styles; SUB-AREA: Feature of play; NOTE: Defining feature of a tactical style]" />
+		</list>	
+		
+		<list id="favoured_attributes">
+			<translation id="1" translation_id="227900" type="use" value="Strength" />
+			<translation id="2" translation_id="555335" type="use" value="Set Piece Ability[COMMENT: AREA: Tactical styles; SUB-AREA: Favoured attributes; NOTE: Favours set piece taking ability]" />
+			<translation id="3" translation_id="227772" type="use" value="Aggression" />
+		</list>
+	</record>
+
+	<record id="6" folder="fluid_counter-attack" tactical_style_id="FLUID_COUNTER_ATTACK">
+		<list id="description">
+			<translation id="1" translation_id="466650" type="use" value="Soak up pressure[COMMENT: tactical style short string description]" />
+			<translation id="2" translation_id="466651" type="use" value="More expressive and fluid counter-attacks[COMMENT: tactical style short string description]" />
+		</list>
+		<translation id="text" translation_id="466652" type="use" value="Fluid Counter-Attack[COMMENT: tactical style name]" />
+		<translation id="hint" translation_id="466653" type="use" value="Looks to draw the opposition forward to leave them vulnerable on the break. Players will be fluid on the counter, trying to combine with each other and carry the ball with clear intent.[COMMENT: description for tactical style Fluid Counter Attack]" />
+		<list id="attribute_template">
+			<!--ATTACKING-->
+			<record id="0">
+				<integer id="min" value="5" />
+				<integer id="max" value="9" />
+			</record>
+			<!--DEPTH-->
+			<record id="19">
+				<integer id="min" value="15" />
+				<integer id="max" value="19" />
+			</record>
+			<!--DIRECTNESS-->
+			<record id="3">
+				<integer id="min" value="4" />
+				<integer id="max" value="8" />
+			</record>
+			<!--FLUIDITY-->
+			<record id="20">
+				<integer id="min" value="12" />
+				<integer id="max" value="18" />
+			</record>
+			<!--DIRTINESS_ALLOWANCE-->
+			<record id="40">
+				<integer id="min" value="13" />
+				<integer id="max" value="17" />
+			</record>
+			<!--CLOSING_DOWN-->
+			<record id="10">
+				<integer id="min" value="4" />
+				<integer id="max" value="8" />
+			</record>
+			<!--TEMPO-->
+			<record id="24">
+				<integer id="min" value="10" />
+				<integer id="max" value="14" />
+			</record>
+			<!--WIDTH-->
+			<record id="25">
+				<integer id="min" value="4" />
+				<integer id="max" value="8" />
+			</record>
+		</list>
+		<list id="tendency_template">
+			<!--NPT_TENDENCY_TO_USE_COUNTER_ATTACKING-->
+			<record id="21">
+				<integer id="min" value="13" />
+				<integer id="max" value="20" />
+			</record>
+			<!--NPT_TENDENCY_TO_PRESS_INTENSELY-->
+			<record id="90">
+				<integer id="min" value="1" />
+				<integer id="max" value="10" />
+			</record>
+			<!--NPT_TENDENCY_TO_COUNTERPRESS-->
+			<record id="91">
+				<integer id="min" value="1" />
+				<integer id="max" value="10" />
+			</record>
+		</list>
+		<list id="preferred_roles">
+			<!--TPRF_BOX_TO_BOX_MIDFIELDER-->
+			<integer value="16" />
+			<!--TPRF_WING_BACK-->
+			<integer value="3" />
+			<!--TPRF_SWEEPER_KEEPER-->
+			<integer value="12" />
+		</list>
+		
+		<list id="features_of_play">
+			<translation id="1" translation_id="555336" type="use" value="Invites Pressure[COMMENT: AREA: Tactical styles; SUB-AREA: Feature of play; NOTE: Defining feature of a tactical style]" />
+			<translation id="2" translation_id="555324" type="use" value="High Speed Counter-Attacks[COMMENT: AREA: Tactical styles; SUB-AREA: Feature of play; NOTE: Defining feature of a tactical style]" />
+			<translation id="3" translation_id="555328" type="use" value="Unpredictable Movement[COMMENT: AREA: Tactical styles; SUB-AREA: Feature of play; NOTE: Defining feature of a tactical style]" />
+		</list>
+
+		<list id="favoured_attributes">
+			<translation id="1" translation_id="227879" type="use" value="Pace" />
+			<translation id="2" translation_id="227912" type="use" value="Work Rate" />
+			<translation id="3" translation_id="227904" type="use" value="Technique" />
+		</list>
+	</record>
+
+	<record id="7" folder="direct_counter-attack" tactical_style_id="DIRECT_COUNTER_ATTACK">
+		<list id="description">
+			<translation id="1" translation_id="466650" type="use" value="Soak up pressure[COMMENT: tactical style short string description]" />
+			<translation id="2" translation_id="466654" type="use" value="Direct and structured counter-attacks[COMMENT: tactical style short string description]" />
+		</list>
+		<translation id="text" translation_id="466655" type="use" value="Direct Counter-Attack[COMMENT: tactical style name]" />
+		<translation id="hint" translation_id="466656" type="use" value="Draws the opposition forward to leave them vulnerable on the break. Players will look to move the ball forward as quickly as possible on the counter-attack to exploit spaces in behind.[COMMENT: description for tactical style Direct Counter Attack]" />
+		<list id="attribute_template">
+			<!--ATTACKING-->
+			<record id="0">
+				<integer id="min" value="5" />
+				<integer id="max" value="9" />
+			</record>
+			<!--DEPTH-->
+			<record id="19">
+				<integer id="min" value="15" />
+				<integer id="max" value="19" />
+			</record>
+			<!--DIRECTNESS-->
+			<record id="3">
+				<integer id="min" value="13" />
+				<integer id="max" value="17" />
+			</record>
+			<!--FLUIDITY-->
+			<record id="20">
+				<integer id="min" value="4" />
+				<integer id="max" value="10" />
+			</record>
+			<!--DIRTINESS_ALLOWANCE-->
+			<record id="40">
+				<integer id="min" value="13" />
+				<integer id="max" value="17" />
+			</record>
+			<!--CLOSING_DOWN-->
+			<record id="10">
+				<integer id="min" value="4" />
+				<integer id="max" value="8" />
+			</record>
+			<!--TEMPO-->
+			<record id="24">
+				<integer id="min" value="10" />
+				<integer id="max" value="14" />
+			</record>
+			<!--WIDTH-->
+			<record id="25">
+				<integer id="min" value="8" />
+				<integer id="max" value="12" />
+			</record>
+		</list>
+		<list id="tendency_template">
+			<!--NPT_TENDENCY_TO_RELY_ON_SET_PIECES-->
+			<record id="38">
+				<integer id="min" value="13" />
+				<integer id="max" value="20" />
+			</record>
+			<!--NPT_TENDENCY_TO_USE_COUNTER_ATTACKING-->
+			<record id="21">
+				<integer id="min" value="13" />
+				<integer id="max" value="20" />
+			</record>
+			<!--NPT_TENDENCY_TO_PLAY_OUT_OF_DEFENCE-->
+			<record id="85">
+				<integer id="min" value="1" />
+				<integer id="max" value="7" />
+			</record>
+			<!--NPT_TENDENCY_TO_USE_CROSSES-->
+			<record id="80">
+				<integer id="min" value="13" />
+				<integer id="max" value="20" />
+			</record>
+			<!--NPT_TENDENCY_TO_WORK_BALL_INTO_BOX-->
+			<record id="84">
+				<integer id="min" value="1" />
+				<integer id="max" value="7" />
+			</record>
+			<!--NPT_TENDENCY_TO_PRESS_INTENSELY-->
+			<record id="90">
+				<integer id="min" value="1" />
+				<integer id="max" value="10" />
+			</record>
+			<!--NPT_TENDENCY_TO_COUNTERPRESS-->
+			<record id="91">
+				<integer id="min" value="1" />
+				<integer id="max" value="10" />
+			</record>
+		</list>
+		<list id="preferred_roles">
+			<!--TPRF_PRESSING_FORWARD-->
+			<integer value="31" />
+		</list>
+		
+		<list id="features_of_play">
+			<translation id="1" translation_id="555337" type="use" value="Compresses Space Defensively[COMMENT: AREA: Tactical styles; SUB-AREA: Feature of play; NOTE: Defining feature of a tactical style]" />
+			<translation id="2" translation_id="555324" type="use" value="High Speed Counter-Attacks[COMMENT: AREA: Tactical styles; SUB-AREA: Feature of play; NOTE: Defining feature of a tactical style]" />
+			<translation id="3" translation_id="555338" type="use" value="Reduced Possession[COMMENT: AREA: Tactical styles; SUB-AREA: Feature of play; NOTE: Defining feature of a tactical style]" />
+		</list>
+
+		<list id="favoured_attributes">
+			<translation id="1" translation_id="227912" type="use" value="Work Rate" />
+			<translation id="2" translation_id="227879" type="use" value="Pace" />
+			<translation id="3" translation_id="227900" type="use" value="Strength" />
+		</list>	
+	</record>
+
+	<record id="8" folder="catenaccio" tactical_style_id="CATENACCIO">
+		<list id="description">
+			<translation id="1" translation_id="466657" type="use" value="Looks to nullify the opposition's attacking threat[COMMENT: tactical style short string description]" />
+			<translation id="2" translation_id="466658" type="use" value="Highly-structured defensive approach[COMMENT: tactical style short string description]" />
+		</list>
+		<translation id="text" translation_id="466659" type="use" value="Catenaccio[COMMENT: tactical style name, refers to the classic Italian style first made famous in the 1960s]" />
+		<translation id="hint" translation_id="466660" type="use" value="A defence-focused style that primarily looks to deny the opposition goalscoring opportunities. A Libero is traditionally deployed to offer cover behind the defensive line.[COMMENT: description for tactical style Catenaccio]" />
+		<list id="attribute_template">
+			<!--ATTACKING-->
+			<record id="0">
+				<integer id="min" value="1" />
+				<integer id="max" value="5" />
+			</record>
+			<!--DEPTH-->
+			<record id="19">
+				<integer id="min" value="15" />
+				<integer id="max" value="19" />
+			</record>
+			<!--DIRECTNESS-->
+			<record id="3">
+				<integer id="min" value="13" />
+				<integer id="max" value="17" />
+			</record>
+			<!--FLUIDITY-->
+			<record id="20">
+				<integer id="min" value="3" />
+				<integer id="max" value="9" />
+			</record>
+			<!--DIRTINESS_ALLOWANCE-->
+			<record id="40">
+				<integer id="min" value="-1" />
+				<integer id="max" value="-1" />
+			</record>
+			<!--CLOSING_DOWN-->
+			<record id="10">
+				<integer id="min" value="3" />
+				<integer id="max" value="7" />
+			</record>
+			<!--TEMPO-->
+			<record id="24">
+				<integer id="min" value="1" />
+				<integer id="max" value="4" />
+			</record>
+			<!--WIDTH-->
+			<record id="25">
+				<integer id="min" value="4" />
+				<integer id="max" value="8" />
+			</record>
+		</list>
+		<list id="tendency_template">
+			<!--NPT_TENDENCY_TO_RELY_ON_SET_PIECES-->
+			<record id="38">
+				<integer id="min" value="10" />
+				<integer id="max" value="20" />
+			</record>
+			<!--NPT_TENDENCY_TO_MAN_MARK-->
+			<record id="76">
+				<integer id="min" value="10" />
+				<integer id="max" value="20" />
+			</record>
+			<!--NPT_TENDENCY_TO_HOLD_DEFENSIVE_LINE-->
+			<record id="77">
+				<integer id="min" value="1" />
+				<integer id="max" value="7" />
+			</record>
+			<!--NPT_TENDENCY_TO_PRESS_INTENSELY-->
+			<record id="90">
+				<integer id="min" value="1" />
+				<integer id="max" value="7" />
+			</record>
+			<!--NPT_TENDENCY_TO_COUNTERPRESS-->
+			<record id="91">
+				<integer id="min" value="1" />
+				<integer id="max" value="7" />
+			</record>
+			<!--NPT_TENDENCY_TO_PREVENT_THE_CROSS-->
+			<record id="87">
+				<integer id="min" value="1" />
+				<integer id="max" value="10" />
+			</record>
+		</list>
+		<list id="preferred_roles">
+			<!--TPRF_LIBERO-->
+			<integer value="14" />
+		</list>
+		
+		<list id="features_of_play">
+			<translation id="1" translation_id="555339" type="use" value="Very Organised[COMMENT: AREA: Tactical styles; SUB-AREA: Feature of play; NOTE: Defining feature of a tactical style]" />
+			<translation id="2" translation_id="555340" type="use" value="Interrupts Opposition Rhythm[COMMENT: AREA: Tactical styles; SUB-AREA: Feature of play; NOTE: Defining feature of a tactical style]" />
+			<translation id="3" translation_id="555338" type="use" value="Reduced Possession[COMMENT: AREA: Tactical styles; SUB-AREA: Feature of play; NOTE: Defining feature of a tactical style]" />
+		</list>
+
+		<list id="favoured_attributes">
+			<translation id="1" translation_id="227916" type="use" value="Concentration" />
+			<translation id="2" translation_id="227886" type="use" value="Positioning" />
+			<translation id="3" translation_id="555335" type="use" value="Set Piece Ability[COMMENT: AREA: Tactical styles; SUB-AREA: Favoured attributes; NOTE: Favours set piece taking ability]" />
+		</list>
+	</record>
+
+	<record id="9" folder="park_the_bus" tactical_style_id="PARK_THE_BUS">
+		<list id="description">
+			<translation id="1" translation_id="466661" type="use" value="Low and structured defensive shape[COMMENT: tactical style short string description]" />
+			<translation id="2" translation_id="466662" type="use" value="Restrict space in the final third[COMMENT: tactical style short string description]" />
+		</list>
+		<translation id="text" translation_id="468803" type="use" value="Park the Bus[COMMENT: tactical style name, refers to the 'Low Block' tactical approach where teams look to defend above all else]" />
+		<translation id="hint" translation_id="466664" type="use" value="Players will look to get behind the ball and protect their defensive third, focusing more on the clean sheet than on possession.[COMMENT: description for tactical style Low Block]" />
+		<list id="attribute_template">
+			<!--ATTACKING-->
+			<record id="0">
+				<integer id="min" value="1" />
+				<integer id="max" value="5" />
+			</record>
+			<!--DEPTH-->
+			<record id="19">
+				<integer id="min" value="18" />
+				<integer id="max" value="20" />
+			</record>
+			<!--DIRECTNESS-->
+			<record id="3">
+				<integer id="min" value="8" />
+				<integer id="max" value="12" />
+			</record>
+			<!--FLUIDITY-->
+			<record id="20">
+				<integer id="min" value="1" />
+				<integer id="max" value="7" />
+			</record>
+			<!--DIRTINESS_ALLOWANCE-->
+			<record id="40">
+				<integer id="min" value="13" />
+				<integer id="max" value="17" />
+			</record>
+			<!--CLOSING_DOWN-->
+			<record id="10">
+				<integer id="min" value="1" />
+				<integer id="max" value="5" />
+			</record>
+			<!--TEMPO-->
+			<record id="24">
+				<integer id="min" value="1" />
+				<integer id="max" value="4" />
+			</record>
+			<!--WIDTH-->
+			<record id="25">
+				<integer id="min" value="6" />
+				<integer id="max" value="10" />
+			</record>
+		</list>
+		<list id="tendency_template">
+			<!--NPT_TENDENCY_TO_RELY_ON_SET_PIECES-->
+			<record id="38">
+				<integer id="min" value="10" />
+				<integer id="max" value="20" />
+			</record>
+			<!--NPT_TENDENCY_TO_MAN_MARK-->
+			<record id="76">
+				<integer id="min" value="1" />
+				<integer id="max" value="10" />
+			</record>
+			<!--NPT_TENDENCY_TO_HOLD_DEFENSIVE_LINE-->
+			<record id="77">
+				<integer id="min" value="1" />
+				<integer id="max" value="7" />
+			</record>
+			<!--NPT_TENDENCY_TO_PRESS_INTENSELY-->
+			<record id="90">
+				<integer id="min" value="1" />
+				<integer id="max" value="7" />
+			</record>
+			<!--NPT_TENDENCY_TO_COUNTERPRESS-->
+			<record id="91">
+				<integer id="min" value="1" />
+				<integer id="max" value="7" />
+			</record>
+			<!--NPT_TENDENCY_TO_PREVENT_THE_CROSS-->
+			<record id="87">
+				<integer id="min" value="1" />
+				<integer id="max" value="10" />
+			</record>
+		</list>
+		<list id="preferred_roles">
+			<!--TPRF_PRESSING_FORWARD-->
+			<integer value="31" />
+			<!--TPRF_DEFENSIVE_WINGER-->
+			<integer value="30" />
+		</list>
+
+		<list id="features_of_play">
+			<translation id="1" translation_id="555337" type="use" value="Compresses Space Defensively[COMMENT: AREA: Tactical styles; SUB-AREA: Feature of play; NOTE: Defining feature of a tactical style]" />
+			<translation id="2" translation_id="555341" type="use" value="Effective At Time Wasting[COMMENT: AREA: Tactical styles; SUB-AREA: Feature of play; NOTE: Defining feature of a tactical style]" />
+			<translation id="3" translation_id="555336" type="use" value="Invites Pressure[COMMENT: AREA: Tactical styles; SUB-AREA: Feature of play; NOTE: Defining feature of a tactical style]" />
+		</list>
+
+		<list id="favoured_attributes">
+			<translation id="1" translation_id="227910" type="use" value="Teamwork" />
+			<translation id="2" translation_id="227912" type="use" value="Work Rate" />
+			<translation id="3" translation_id="227772" type="use" value="Aggression" />
+		</list>
+	</record>
+
+	<record id="10" folder="clean_slate">
+		<list id="description">
+			<translation id="1" translation_id="466665" type="use" value="No instructions set[COMMENT: tactical style short string description]" />
+			<translation id="2" translation_id="466666" type="use" value="Standard approach to play[COMMENT: tactical style short string description]" />
+		</list>
+		<translation id="text" translation_id="466667" type="use" value="Clean Slate[COMMENT: tactical style name]" />
+		<translation id="hint" translation_id="466668" type="use" value="The tactics board is a clean slate, ready for a playing style to be created from the ground up.[COMMENT: description for tactical style Clean Slate]" />
+	</record>
+
+</record>
