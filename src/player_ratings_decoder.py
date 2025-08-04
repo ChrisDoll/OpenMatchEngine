@@ -752,9 +752,9 @@ def parse_version(
         print("Using manual override for version data...")
         return {
             "version_major": 1,
-            "version_minor":  0,
-            "version_release": 6,
-            "version_year": 24,
+            "version_minor":  8,
+            "version_release": 1,
+            "version_year": 23,
         }
 
 
@@ -1016,7 +1016,7 @@ if __name__ == "__main__":
 
         # ─── Configuration ────────────────────────────────────────────────────
         FILE_NAME = "player_ratings_data.jsb"
-        SEASON_TO_RUN = "fm24"  # "fm2302", "fm2301", "fm24"
+        SEASON_TO_RUN = "fm2301"  # "fm2302", "fm2301", "fm24"
         ROOT = Path(__file__).parent.parent
         JSB = ROOT / "src" / "clean_simatch" / FILE_NAME
         JSON_PATH = ROOT / "src" / "player_ratings_data.json"
