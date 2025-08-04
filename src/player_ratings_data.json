@@ -91,7 +91,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -2
+              "value": -3
             },
             {
               "name": "Assists",
@@ -123,7 +123,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -50
+              "value": 50
             },
             {
               "name": "Passes Incomplete",
@@ -151,7 +151,7 @@
             },
             {
               "name": "Open Play xA",
-              "value": -50
+              "value": 50
             },
             {
               "name": "Tackles Won",
@@ -303,7 +303,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -2
+              "value": -3
             },
             {
               "name": "Assists",
@@ -335,7 +335,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -18
+              "value": -19
             },
             {
               "name": "Passes Incomplete",
@@ -363,7 +363,7 @@
             },
             {
               "name": "Open Play xA",
-              "value": -50
+              "value": 50
             },
             {
               "name": "Tackles Won",
@@ -515,7 +515,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -2
+              "value": -3
             },
             {
               "name": "Assists",
@@ -547,7 +547,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -18
+              "value": -19
             },
             {
               "name": "Passes Incomplete",
@@ -575,7 +575,7 @@
             },
             {
               "name": "Open Play xA",
-              "value": -50
+              "value": 50
             },
             {
               "name": "Tackles Won",
@@ -727,7 +727,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -2
+              "value": -3
             },
             {
               "name": "Assists",
@@ -759,7 +759,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -18
+              "value": -19
             },
             {
               "name": "Passes Incomplete",
@@ -939,7 +939,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -2
+              "value": -3
             },
             {
               "name": "Assists",
@@ -971,7 +971,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -50
+              "value": 50
             },
             {
               "name": "Passes Incomplete",
@@ -999,7 +999,7 @@
             },
             {
               "name": "Open Play xA",
-              "value": -50
+              "value": 50
             },
             {
               "name": "Tackles Won",
@@ -1151,7 +1151,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -2
+              "value": -3
             },
             {
               "name": "Assists",
@@ -1183,7 +1183,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -50
+              "value": 50
             },
             {
               "name": "Passes Incomplete",
@@ -1211,7 +1211,7 @@
             },
             {
               "name": "Open Play xA",
-              "value": -50
+              "value": 50
             },
             {
               "name": "Tackles Won",
@@ -1363,7 +1363,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -2
+              "value": -3
             },
             {
               "name": "Assists",
@@ -1395,7 +1395,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -50
+              "value": 50
             },
             {
               "name": "Passes Incomplete",
@@ -1575,7 +1575,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -2
+              "value": -3
             },
             {
               "name": "Assists",
@@ -1607,7 +1607,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -50
+              "value": 50
             },
             {
               "name": "Passes Incomplete",
@@ -1787,7 +1787,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -2
+              "value": -3
             },
             {
               "name": "Assists",
@@ -1819,7 +1819,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -50
+              "value": 50
             },
             {
               "name": "Passes Incomplete",
@@ -1999,7 +1999,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -2
+              "value": -3
             },
             {
               "name": "Assists",
@@ -2031,7 +2031,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -50
+              "value": 50
             },
             {
               "name": "Passes Incomplete",
@@ -2211,7 +2211,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -2
+              "value": -3
             },
             {
               "name": "Assists",
@@ -2243,7 +2243,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -50
+              "value": 50
             },
             {
               "name": "Passes Incomplete",
@@ -2423,7 +2423,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -2
+              "value": -3
             },
             {
               "name": "Assists",
@@ -2455,7 +2455,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -50
+              "value": 50
             },
             {
               "name": "Passes Incomplete",
@@ -2483,7 +2483,7 @@
             },
             {
               "name": "Open Play xA",
-              "value": -50
+              "value": 50
             },
             {
               "name": "Tackles Won",
@@ -2635,7 +2635,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -2
+              "value": -3
             },
             {
               "name": "Assists",
@@ -2667,7 +2667,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -18
+              "value": -19
             },
             {
               "name": "Passes Incomplete",
@@ -2695,7 +2695,7 @@
             },
             {
               "name": "Open Play xA",
-              "value": -50
+              "value": 50
             },
             {
               "name": "Tackles Won",
@@ -2847,7 +2847,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -2
+              "value": -3
             },
             {
               "name": "Assists",
@@ -2879,7 +2879,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -50
+              "value": 50
             },
             {
               "name": "Passes Incomplete",
@@ -3059,7 +3059,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -2
+              "value": -3
             },
             {
               "name": "Assists",
@@ -3091,7 +3091,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -50
+              "value": 50
             },
             {
               "name": "Passes Incomplete",
@@ -3271,7 +3271,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -2
+              "value": -3
             },
             {
               "name": "Assists",
@@ -3303,7 +3303,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -50
+              "value": 50
             },
             {
               "name": "Passes Incomplete",
@@ -3483,7 +3483,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -2
+              "value": -3
             },
             {
               "name": "Assists",
@@ -3515,7 +3515,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -18
+              "value": -19
             },
             {
               "name": "Passes Incomplete",
@@ -3543,7 +3543,7 @@
             },
             {
               "name": "Open Play xA",
-              "value": -50
+              "value": 50
             },
             {
               "name": "Tackles Won",
@@ -3695,7 +3695,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -2
+              "value": -3
             },
             {
               "name": "Assists",
@@ -3727,7 +3727,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -50
+              "value": 50
             },
             {
               "name": "Passes Incomplete",
@@ -3907,7 +3907,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -2
+              "value": -3
             },
             {
               "name": "Assists",
@@ -3939,7 +3939,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -18
+              "value": -19
             },
             {
               "name": "Passes Incomplete",
@@ -3967,7 +3967,7 @@
             },
             {
               "name": "Open Play xA",
-              "value": -50
+              "value": 50
             },
             {
               "name": "Tackles Won",
@@ -4119,7 +4119,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -2
+              "value": -3
             },
             {
               "name": "Assists",
@@ -4151,7 +4151,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -50
+              "value": 50
             },
             {
               "name": "Passes Incomplete",
@@ -4331,7 +4331,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -2
+              "value": -3
             },
             {
               "name": "Assists",
@@ -4363,7 +4363,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -50
+              "value": 50
             },
             {
               "name": "Passes Incomplete",
@@ -4543,7 +4543,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -2
+              "value": -3
             },
             {
               "name": "Assists",
@@ -4575,7 +4575,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -18
+              "value": -19
             },
             {
               "name": "Passes Incomplete",
@@ -4603,7 +4603,7 @@
             },
             {
               "name": "Open Play xA",
-              "value": -50
+              "value": 50
             },
             {
               "name": "Tackles Won",
@@ -4755,7 +4755,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -2
+              "value": -3
             },
             {
               "name": "Assists",
@@ -4787,7 +4787,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -50
+              "value": 50
             },
             {
               "name": "Passes Incomplete",
@@ -4967,7 +4967,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -2
+              "value": -3
             },
             {
               "name": "Assists",
@@ -4999,7 +4999,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -50
+              "value": 50
             },
             {
               "name": "Passes Incomplete",
@@ -5179,7 +5179,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -2
+              "value": -3
             },
             {
               "name": "Assists",
@@ -5211,7 +5211,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -50
+              "value": 50
             },
             {
               "name": "Passes Incomplete",
@@ -5239,7 +5239,7 @@
             },
             {
               "name": "Open Play xA",
-              "value": -50
+              "value": 50
             },
             {
               "name": "Tackles Won",
@@ -5391,7 +5391,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -2
+              "value": -3
             },
             {
               "name": "Assists",
@@ -5423,7 +5423,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -50
+              "value": 50
             },
             {
               "name": "Passes Incomplete",
@@ -5603,7 +5603,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -2
+              "value": -3
             },
             {
               "name": "Assists",
@@ -5635,7 +5635,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -18
+              "value": -19
             },
             {
               "name": "Passes Incomplete",
@@ -5663,7 +5663,7 @@
             },
             {
               "name": "Open Play xA",
-              "value": -50
+              "value": 50
             },
             {
               "name": "Tackles Won",

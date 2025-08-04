@@ -544,26 +544,26 @@ def parse_role_data(buf: bytes, start: int, stop: int, verbose: bool):
         p = vpos + len(VALUE_S)
         tag = data[p]
 
-        if tag == 0x02:  # INT32
-            value = struct.unpack_from("<i", data, p + 1)[0]
+        if tag == 0x02:                                # INT32
+            value = struct.unpack_from("<i", data, p+1)[0]
             nxt, tag_desc = p + 5, "i32"
 
-        elif tag == 0x03:  # INT64
-            value = struct.unpack_from("<q", data, p + 1)[0]
+        elif tag == 0x03:                              # INT64
+            value = struct.unpack_from("<q", data, p+1)[0]
             nxt, tag_desc = p + 9, "i64"
 
-        elif 0x80 <= tag <= 0xBF:  # tiny positive
-            value = tag - 0x80
-            nxt, tag_desc = p + 1, "tiny+"
+        elif 0x80 <= tag <= 0xBF:                      # tiny +0…63
+            value, nxt, tag_desc = tag - 0x80, p + 1, "tiny+"
 
-        elif 0xC0 <= tag <= 0xFF:  # tiny negative
-            value = -(tag - 0xC0)
-            nxt, tag_desc = p + 1, "tiny−"
+        elif 0xC0 <= tag <= 0xDF:                      # tiny −1…−32
+            value, nxt, tag_desc = -(tag - 0xC0 + 1), p + 1, "tiny−"
 
-        else:  # ZigZag varint
+        elif 0xE0 <= tag <= 0xFF:                      # tiny +32…63  (FM23 quirk)
+            value, nxt, tag_desc = tag - 0xE0 + 32, p + 1, "tiny+*"
+
+        else:                                          # ZigZag varint
             value, nxt = _read_varint(data, p)
             tag_desc = "var"
-
         coeffs.append(Role_object(name, value))
         if verbose:
             print(
@@ -1003,7 +1003,24 @@ def main():
     for act in actions:
         ws.append([act] + [matrix.get(act, {}).get(h, None) for h in headers])
 
-    wb.save(XLSX_PATH)
+    atempts = 0 
+    while atempts < 1:
+        try:
+            wb.save(XLSX_PATH)
+            print("✓ Saved", XLSX_PATH.name)
+            break                             # success → leave loop
+        except PermissionError:
+            print(
+                f"\n⛔  Permission denied while writing "
+                f"'{XLSX_PATH.name}'.\n"
+                "The file is probably open in Excel.\n"
+                "Close it and press Enter to try again…",
+                flush=True
+            )
+            input()
+            atempts += 1
+
+
     print("✓ Saved", XLSX_PATH.name)
 
     _pause("Finished - press Enter to exit…")
