@@ -27,7 +27,6 @@ import sys
 import importlib.util
 import importlib
 import subprocess
-import string
 
 def ensure(pkg: str, symbol: str | None = None) -> Any:
     """

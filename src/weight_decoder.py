@@ -97,6 +97,7 @@ _PATTERN = (
 )
 _KEY_RE = re.compile(_PATTERN, re.DOTALL)
 
+
 def _le_i32(b: bytes) -> int:
     return struct.unpack("<i", b)[0]
 
@@ -182,6 +183,33 @@ def _restructure(pairs: list[tuple[str, int | None]]) -> WeightsDoc:
     return WeightsDoc(WEIGHTS=seasons)
 
 
+# ───────── restore all prefixes before JSON ─────────
+_TPS_NAMES = {
+    "TPS_FIRST_TEAM_PICKING",
+    "TPS_SEMI_RESERVE_PICKING",
+    "TPS_SLIGHTLY_RESERVE_PICKING",
+    "TPS_TOTAL_RESERVE_PICKING",
+}
+
+
+def _add_prefix(d: Any) -> Any:
+    """Recursively add required prefixes to keys."""
+    if isinstance(d, dict):
+        out: dict[str, Any] = {}
+        for k, v in d.items():
+            if k.startswith("TSF_") and not k.startswith("simatchshared::"):
+                new_k = f"simatchshared::{k}"
+            elif k in _TPS_NAMES:
+                new_k = f"TEAM_PICKING_STYLE::{k}"
+            else:
+                new_k = k
+            out[new_k] = _add_prefix(v)
+        return out
+    if isinstance(d, list):
+        return [_add_prefix(x) for x in d]
+    return d
+
+
 # ───────── decode one weights.jsb file ─────────
 def decode(jsb: Path) -> WeightsDoc:
     data = jsb.read_bytes()
@@ -193,7 +221,6 @@ def decode(jsb: Path) -> WeightsDoc:
         if vbytes is not None:
             val: int | None = _le_i32(vbytes)
         else:
-            # ME_* defaults to 0 except YEAR (None for now)
             val = 0 if key.startswith("ME_PACK_VERSION_") and key != "ME_PACK_VERSION_YEAR" else None
         pairs.append((key, val))
 
@@ -227,7 +254,11 @@ def main() -> None:
     print(f"→ decoding {JSB_PATH}")
     try:
         doc = decode(JSB_PATH)
-        JSON_PATH.write_text(json.dumps(asdict(doc), indent=2, ensure_ascii=False), "utf-8")
+        json_payload = _add_prefix(asdict(doc))  # prefixes restored
+        JSON_PATH.write_text(
+            json.dumps(json_payload, indent=2, ensure_ascii=False),
+            "utf-8",
+        )
         print(f"✓ {JSON_PATH.name}")
         _pause()
     except Exception as exc:  # pragma: no-cover

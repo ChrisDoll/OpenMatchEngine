@@ -28,7 +28,7 @@
           "positive_multiplier": 1000
         },
         {
-          "name": "Neutral\u0013",
+          "name": "Neutral",
           "negative_multiplier": 1000,
           "positive_multiplier": 1000
         },
@@ -170,7 +170,7 @@
               "value": -40
             },
             {
-              "name": "xBlocks",
+              "name": "Blocks",
               "value": 50
             },
             {
@@ -382,7 +382,7 @@
               "value": -40
             },
             {
-              "name": "xBlocks",
+              "name": "Blocks",
               "value": 100
             },
             {
@@ -594,7 +594,7 @@
               "value": -40
             },
             {
-              "name": "xBlocks",
+              "name": "Blocks",
               "value": 100
             },
             {
@@ -806,7 +806,7 @@
               "value": -40
             },
             {
-              "name": "xBlocks",
+              "name": "Blocks",
               "value": 100
             },
             {
@@ -1018,7 +1018,7 @@
               "value": -40
             },
             {
-              "name": "xBlocks",
+              "name": "Blocks",
               "value": 100
             },
             {
@@ -1230,7 +1230,7 @@
               "value": -40
             },
             {
-              "name": "xBlocks",
+              "name": "Blocks",
               "value": 50
             },
             {
@@ -1442,7 +1442,7 @@
               "value": -40
             },
             {
-              "name": "xBlocks",
+              "name": "Blocks",
               "value": 50
             },
             {
@@ -1654,7 +1654,7 @@
               "value": -40
             },
             {
-              "name": "xBlocks",
+              "name": "Blocks",
               "value": 50
             },
             {
@@ -1866,7 +1866,7 @@
               "value": -40
             },
             {
-              "name": "xBlocks",
+              "name": "Blocks",
               "value": 50
             },
             {
@@ -2078,7 +2078,7 @@
               "value": -20
             },
             {
-              "name": "xBlocks",
+              "name": "Blocks",
               "value": 50
             },
             {
@@ -2290,7 +2290,7 @@
               "value": -20
             },
             {
-              "name": "xBlocks",
+              "name": "Blocks",
               "value": 50
             },
             {
@@ -2502,7 +2502,7 @@
               "value": -40
             },
             {
-              "name": "xBlocks",
+              "name": "Blocks",
               "value": 50
             },
             {
@@ -2714,7 +2714,7 @@
               "value": -40
             },
             {
-              "name": "xBlocks",
+              "name": "Blocks",
               "value": 100
             },
             {
@@ -2926,7 +2926,7 @@
               "value": -40
             },
             {
-              "name": "xBlocks",
+              "name": "Blocks",
               "value": 50
             },
             {
@@ -3138,7 +3138,7 @@
               "value": -40
             },
             {
-              "name": "xBlocks",
+              "name": "Blocks",
               "value": 50
             },
             {
@@ -3350,7 +3350,7 @@
               "value": -20
             },
             {
-              "name": "xBlocks",
+              "name": "Blocks",
               "value": 50
             },
             {
@@ -3562,7 +3562,7 @@
               "value": -40
             },
             {
-              "name": "xBlocks",
+              "name": "Blocks",
               "value": 100
             },
             {
@@ -3774,7 +3774,7 @@
               "value": -20
             },
             {
-              "name": "xBlocks",
+              "name": "Blocks",
               "value": 50
             },
             {
@@ -3986,7 +3986,7 @@
               "value": -40
             },
             {
-              "name": "xBlocks",
+              "name": "Blocks",
               "value": 100
             },
             {
@@ -4198,7 +4198,7 @@
               "value": -40
             },
             {
-              "name": "xBlocks",
+              "name": "Blocks",
               "value": 50
             },
             {
@@ -4410,7 +4410,7 @@
               "value": -20
             },
             {
-              "name": "xBlocks",
+              "name": "Blocks",
               "value": 50
             },
             {
@@ -4622,7 +4622,7 @@
               "value": -40
             },
             {
-              "name": "xBlocks",
+              "name": "Blocks",
               "value": 100
             },
             {
@@ -4834,7 +4834,7 @@
               "value": -40
             },
             {
-              "name": "xBlocks",
+              "name": "Blocks",
               "value": 100
             },
             {
@@ -5046,7 +5046,7 @@
               "value": -40
             },
             {
-              "name": "xBlocks",
+              "name": "Blocks",
               "value": 50
             },
             {
@@ -5258,7 +5258,7 @@
               "value": -40
             },
             {
-              "name": "xBlocks",
+              "name": "Blocks",
               "value": 50
             },
             {
@@ -5470,7 +5470,7 @@
               "value": -40
             },
             {
-              "name": "xBlocks",
+              "name": "Blocks",
               "value": 100
             },
             {
@@ -5682,7 +5682,7 @@
               "value": -40
             },
             {
-              "name": "xBlocks",
+              "name": "Blocks",
               "value": 50
             },
             {
@@ -5894,7 +5894,7 @@
               "value": -40
             },
             {
-              "name": "xBlocks",
+              "name": "Blocks",
               "value": 50
             },
             {
@@ -6106,7 +6106,7 @@
               "value": -40
             },
             {
-              "name": "xBlocks",
+              "name": "Blocks",
               "value": 50
             },
             {
@@ -6318,7 +6318,7 @@
               "value": -40
             },
             {
-              "name": "xBlocks",
+              "name": "Blocks",
               "value": 50
             },
             {
@@ -6530,7 +6530,7 @@
               "value": -40
             },
             {
-              "name": "xBlocks",
+              "name": "Blocks",
               "value": 100
             },
             {
@@ -6742,7 +6742,7 @@
               "value": -40
             },
             {
-              "name": "xBlocks",
+              "name": "Blocks",
               "value": 100
             },
             {
@@ -7028,9 +7028,9 @@
       ],
       "start_value": 6700,
       "version": {
-        "version_major": 34,
-        "version_minor": 18,
-        "version_release": 18,
+        "version_major": 1,
+        "version_minor": 0,
+        "version_release": 6,
         "version_year": 24
       }
     }

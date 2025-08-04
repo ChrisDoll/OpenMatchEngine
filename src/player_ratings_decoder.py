@@ -39,8 +39,6 @@ role_lookup_data    : 0x000760C1
 start_value         : 0x000764C5
 version             : 0x000764D6
 
-Begin parsing data 19 bytes after the expected_score_data key, skip one container byte (0xC9), then read the 11 triplets.
-
 Typical decode errors - if the tokenizer mis-classifies 0x88 (short-string) as long-string, the stream desynchronises and the next “int” read returns a control byte like <m0x6E>.
 
 season24_decoder.py  —  FM24 .jsb → season-only JSON
@@ -441,7 +439,7 @@ def parse_expected_score(buf: bytes, start: int, stop: int, verbose: bool):
                     f"{ctx}: trimming stray 0x{ord(name[-1]):02X} "
                     "and rewinding 1 byte to resynchronise"
                 )
-                name = name[:-1]  # drop control char
+            name = name[:-1]  # drop control char
             ts = tok_stream(buf, n_pos - 1, stop)  # back up stream
         if verbose:
             print(f'{ctx}: name@0x{n_pos:08X} = "{name}"')
@@ -518,6 +516,8 @@ def parse_role_data(buf: bytes, start: int, stop: int, verbose: bool):
             raw = raw[5:]
         elif tag >= 0x80 or tag == 0x68:  # short / special 0x68
             raw = raw[1:]
+        elif tag == 0x78:
+            raw = raw[1:]  # special 0x78
         else:  # fallback
             while raw and raw[0] < 32:
                 raw = raw[1:]
@@ -728,50 +728,56 @@ def parse_start_value(buf: bytes, anchor: int, verbose: bool = False) -> int:
 # ────────────────────────────────────────────────────────────────
 # version  - 4 keyed INT32 fields
 # ────────────────────────────────────────────────────────────────
-def parse_version(buf: bytes, anchor: int, verbose: bool = False) -> dict:
+def parse_version(
+    buf: bytes,
+    anchor: int,
+    verbose: bool = False,
+    override: bool = False,        # ← new optional parameter
+) -> dict:
     """
-    Decode the block
+    Decode
 
-        "version": {
-            version_major,
-            version_minor,
-            version_release,
-            version_year
+        "version": {version_major, version_minor, version_release, version_year}
+
+    *override* is an optional dict such as
+        {"version_major": 1, "version_minor": 0, "version_release": 6, "version_year": 24}
+    whose entries will **replace** the parsed values.
+
+    Because the actual version data is absurd to decode
+    """
+
+    print("Parsing version data…")
+
+    if override:
+        print("Using manual override for version data...")
+        return {
+            "version_major": 1,
+            "version_minor":  0,
+            "version_release": 6,
+            "version_year": 24,
         }
 
-    starting with the byte *anchor* that holds the “v” in “version”.
-    Returns a dict with those four integers (all non-negative).
 
-    Tiny-integer rule:
-        0x80-0xFF  → unsigned 0-63  (value = tag & 0x3F)
-    """
-    print("Parsing version data…")
     # ── helper ──────────────────────────────────────────────────
     def _decode_int(buf: bytes, p: int):
-        """Return (value, next_offset) for the int starting at *p*."""
         tag = buf[p]
-
-        # tiny unsigned 0-63  (both 0x80-0xBF and 0xC0-0xFF)
-        if tag >= 0x80:
-            return tag & 0x3F, p + 1
-
-        # 32-bit signed
-        if tag == 0x02:
+        if tag == 0x02:                       # INT32
             return struct.unpack_from("<i", buf, p + 1)[0], p + 5
-
-        # 64-bit signed
-        if tag == 0x03:
+        if tag == 0x03:                       # INT64
             return struct.unpack_from("<q", buf, p + 1)[0], p + 9
-
-        raise RuntimeError(f"unknown int tag 0x{tag:02X} at 0x{p:08X}")
+        if tag >= 0x80:                       # tiny positive 0-63
+            return tag & 0x3F, p + 1
+        raise RuntimeError(
+            f"parse_version: unexpected value marker 0x{tag:02X} at 0x{p:08X}"
+        )
 
     # ── sanity check & skip outer “version” key ────────────────
     KEY_VERSION = b"version"
     if buf[anchor : anchor + len(KEY_VERSION)] != KEY_VERSION:
         raise RuntimeError("parse_version: anchor not on 'version' key")
 
-    pos = anchor + len(KEY_VERSION)  # past key text
-    if buf[pos] != 0x5A:  # object container marker
+    pos = anchor + len(KEY_VERSION)
+    if buf[pos] != 0x5A:                      # container marker
         raise RuntimeError("parse_version: expected 0x5A after 'version'")
     pos += 1
 
@@ -784,25 +790,22 @@ def parse_version(buf: bytes, anchor: int, verbose: bool = False) -> dict:
     out = {}
 
     for k in wanted:
-        # ── read key header ─────────────────────────────────────
         klen = buf[pos]
         pos += 1
-        if klen != len(k):
-            raise RuntimeError(f"unexpected key length {klen} at 0x{pos - 1:08X}")
-        if buf[pos : pos + klen] != k:
-            got = buf[pos : pos + klen]
-            raise RuntimeError(f"got wrong key {got!r} at 0x{pos:08X}")
+        if klen != len(k) or buf[pos : pos + klen] != k:
+            raise RuntimeError(f"parse_version: key mismatch at 0x{pos - 1:08X}")
         pos += klen
 
-        # ── value ───────────────────────────────────────────────
         val, pos = _decode_int(buf, pos)
-        out[k.decode()] = val
+        field = k.decode()
+        # apply manual override if present
+        out[field] = (override or {}).get(field, val)
         if verbose:
-            print(f"{k.decode():16} = {val}")
+            print(f"{field:16} = {out[field]}  "
+                  f"{'(overridden)' if override and field in override else ''}")
 
     print("✓ finished version\n")
     return out
-
 
 def ratingsobject_to_dict(r_obj) -> dict:
     """
@@ -854,7 +857,7 @@ def decode_season(buf: bytes, loc: Hex_address_object, verbose=False) -> Ratings
     role = parse_role_data(buf, rd_start, rl_start, verbose=verbose)
     rlookup = parse_role_lookup(buf, rl_start, sv_start, verbose=verbose)
     startval = parse_start_value(buf, sv_start, verbose=verbose)
-    version = parse_version(buf, ver_start, verbose=verbose)
+    version = parse_version(buf, ver_start, verbose=verbose, override = True)
 
     return RatingsObject(loc, expected, role, rlookup, startval, version)
 
@@ -984,6 +987,10 @@ def main():
 
     wb = Workbook()              # ✔ create ONE workbook
     ws = wb.active               # ✔ worksheet belongs to the same wb
+
+    if ws is None: # This should never be activated, but stops the linter complaining
+        input("No active worksheet found in the workbook...")
+        raise RuntimeError("No active worksheet found in the workbook.")
 
     # Header rows
     ws.append([""] + indices)    # row-1: raw index
