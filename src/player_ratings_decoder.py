@@ -544,26 +544,25 @@ def parse_role_data(buf: bytes, start: int, stop: int, verbose: bool):
         p = vpos + len(VALUE_S)
         tag = data[p]
 
-        if tag == 0x02:                                # INT32
-            value = struct.unpack_from("<i", data, p+1)[0]
-            nxt, tag_desc = p + 5, "i32"
+        if tag == 0x02:                                 # INT32
+            value, nxt, tag_desc = struct.unpack_from("<i", data, p+1)[0], p+5, "i32"
 
-        elif tag == 0x03:                              # INT64
-            value = struct.unpack_from("<q", data, p+1)[0]
-            nxt, tag_desc = p + 9, "i64"
+        elif tag >= 0x80 and (tag & 0x0F) == 0x02:      # ← nibble 0-15  ← must be here
+            value, nxt, tag_desc = (tag & 0x7F) >> 4, p + 1, "nib"
 
-        elif 0x80 <= tag <= 0xBF:                      # tiny +0…63
+        elif tag == 0x03:                               # INT64
+            value, nxt, tag_desc = struct.unpack_from("<q", data, p+1)[0], p+9, "i64"
+
+        elif 0x80 <= tag <= 0xBF:                       # tiny +0…+63
             value, nxt, tag_desc = tag - 0x80, p + 1, "tiny+"
 
-        elif 0xC0 <= tag <= 0xDF:                      # tiny −1…−32
+        elif 0xC0 <= tag <= 0xDF:                       # tiny −1…−32
             value, nxt, tag_desc = -(tag - 0xC0 + 1), p + 1, "tiny−"
 
-        elif 0xE0 <= tag <= 0xFF:                      # tiny +32…63  (FM23 quirk)
-            value, nxt, tag_desc = tag - 0xE0 + 32, p + 1, "tiny+*"
-
-        else:                                          # ZigZag varint
+        else:                                           # 0xE0-0xFF → var-int (rare here)
             value, nxt = _read_varint(data, p)
             tag_desc = "var"
+
         coeffs.append(Role_object(name, value))
         if verbose:
             print(

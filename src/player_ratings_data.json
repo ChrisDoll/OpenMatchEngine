@@ -91,7 +91,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -3
+              "value": 4
             },
             {
               "name": "Assists",
@@ -123,11 +123,11 @@
             },
             {
               "name": "Passes Completed",
-              "value": 50
+              "value": 7
             },
             {
               "name": "Passes Incomplete",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Dribbles",
@@ -147,11 +147,11 @@
             },
             {
               "name": "Chances Created",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Open Play xA",
-              "value": 50
+              "value": 7
             },
             {
               "name": "Tackles Won",
@@ -175,7 +175,7 @@
             },
             {
               "name": "Clearances",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Mistakes Leading to Goals",
@@ -183,7 +183,7 @@
             },
             {
               "name": "Possession Won",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Aerial Duels Won",
@@ -219,7 +219,7 @@
             },
             {
               "name": "Penalties Conceded",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Keeper less than 5 shot boost",
@@ -303,7 +303,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -3
+              "value": 4
             },
             {
               "name": "Assists",
@@ -335,7 +335,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -19
+              "value": 5
             },
             {
               "name": "Passes Incomplete",
@@ -359,11 +359,11 @@
             },
             {
               "name": "Chances Created",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Open Play xA",
-              "value": 50
+              "value": 7
             },
             {
               "name": "Tackles Won",
@@ -415,27 +415,27 @@
             },
             {
               "name": "Saves",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Good Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Great Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Saved Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Conceded",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Keeper less than 5 shot boost",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Yellow Card",
@@ -459,7 +459,7 @@
             },
             {
               "name": "Shootout Saved",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Winning Pen",
@@ -467,7 +467,7 @@
             },
             {
               "name": "Shootout Saved Pen to Win",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Missed Losing Pen",
@@ -515,7 +515,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -3
+              "value": 4
             },
             {
               "name": "Assists",
@@ -547,7 +547,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -19
+              "value": 5
             },
             {
               "name": "Passes Incomplete",
@@ -571,11 +571,11 @@
             },
             {
               "name": "Chances Created",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Open Play xA",
-              "value": 50
+              "value": 7
             },
             {
               "name": "Tackles Won",
@@ -627,27 +627,27 @@
             },
             {
               "name": "Saves",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Good Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Great Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Saved Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Conceded",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Keeper less than 5 shot boost",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Yellow Card",
@@ -671,7 +671,7 @@
             },
             {
               "name": "Shootout Saved",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Winning Pen",
@@ -679,7 +679,7 @@
             },
             {
               "name": "Shootout Saved Pen to Win",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Missed Losing Pen",
@@ -727,7 +727,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -3
+              "value": 4
             },
             {
               "name": "Assists",
@@ -759,7 +759,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -19
+              "value": 5
             },
             {
               "name": "Passes Incomplete",
@@ -783,7 +783,7 @@
             },
             {
               "name": "Chances Created",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Open Play xA",
@@ -839,27 +839,27 @@
             },
             {
               "name": "Saves",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Good Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Great Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Saved Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Conceded",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Keeper less than 5 shot boost",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Yellow Card",
@@ -883,7 +883,7 @@
             },
             {
               "name": "Shootout Saved",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Winning Pen",
@@ -891,7 +891,7 @@
             },
             {
               "name": "Shootout Saved Pen to Win",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Missed Losing Pen",
@@ -939,7 +939,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -3
+              "value": 4
             },
             {
               "name": "Assists",
@@ -971,7 +971,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": 50
+              "value": 7
             },
             {
               "name": "Passes Incomplete",
@@ -995,11 +995,11 @@
             },
             {
               "name": "Chances Created",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Open Play xA",
-              "value": 50
+              "value": 7
             },
             {
               "name": "Tackles Won",
@@ -1051,27 +1051,27 @@
             },
             {
               "name": "Saves",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Good Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Great Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Saved Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Conceded",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Keeper less than 5 shot boost",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Yellow Card",
@@ -1095,7 +1095,7 @@
             },
             {
               "name": "Shootout Saved",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Winning Pen",
@@ -1103,7 +1103,7 @@
             },
             {
               "name": "Shootout Saved Pen to Win",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Missed Losing Pen",
@@ -1151,7 +1151,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -3
+              "value": 4
             },
             {
               "name": "Assists",
@@ -1183,7 +1183,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": 50
+              "value": 7
             },
             {
               "name": "Passes Incomplete",
@@ -1207,11 +1207,11 @@
             },
             {
               "name": "Chances Created",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Open Play xA",
-              "value": 50
+              "value": 7
             },
             {
               "name": "Tackles Won",
@@ -1263,27 +1263,27 @@
             },
             {
               "name": "Saves",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Good Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Great Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Saved Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Conceded",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Keeper less than 5 shot boost",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Yellow Card",
@@ -1307,7 +1307,7 @@
             },
             {
               "name": "Shootout Saved",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Winning Pen",
@@ -1315,7 +1315,7 @@
             },
             {
               "name": "Shootout Saved Pen to Win",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Missed Losing Pen",
@@ -1363,7 +1363,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -3
+              "value": 4
             },
             {
               "name": "Assists",
@@ -1395,7 +1395,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": 50
+              "value": 7
             },
             {
               "name": "Passes Incomplete",
@@ -1419,7 +1419,7 @@
             },
             {
               "name": "Chances Created",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Open Play xA",
@@ -1475,27 +1475,27 @@
             },
             {
               "name": "Saves",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Good Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Great Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Saved Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Conceded",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Keeper less than 5 shot boost",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Yellow Card",
@@ -1519,7 +1519,7 @@
             },
             {
               "name": "Shootout Saved",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Winning Pen",
@@ -1527,7 +1527,7 @@
             },
             {
               "name": "Shootout Saved Pen to Win",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Missed Losing Pen",
@@ -1575,7 +1575,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -3
+              "value": 4
             },
             {
               "name": "Assists",
@@ -1607,7 +1607,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": 50
+              "value": 7
             },
             {
               "name": "Passes Incomplete",
@@ -1631,7 +1631,7 @@
             },
             {
               "name": "Chances Created",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Open Play xA",
@@ -1687,27 +1687,27 @@
             },
             {
               "name": "Saves",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Good Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Great Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Saved Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Conceded",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Keeper less than 5 shot boost",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Yellow Card",
@@ -1731,7 +1731,7 @@
             },
             {
               "name": "Shootout Saved",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Winning Pen",
@@ -1739,7 +1739,7 @@
             },
             {
               "name": "Shootout Saved Pen to Win",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Missed Losing Pen",
@@ -1787,7 +1787,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -3
+              "value": 4
             },
             {
               "name": "Assists",
@@ -1819,7 +1819,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": 50
+              "value": 7
             },
             {
               "name": "Passes Incomplete",
@@ -1843,7 +1843,7 @@
             },
             {
               "name": "Chances Created",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Open Play xA",
@@ -1899,27 +1899,27 @@
             },
             {
               "name": "Saves",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Good Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Great Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Saved Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Conceded",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Keeper less than 5 shot boost",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Yellow Card",
@@ -1943,7 +1943,7 @@
             },
             {
               "name": "Shootout Saved",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Winning Pen",
@@ -1951,7 +1951,7 @@
             },
             {
               "name": "Shootout Saved Pen to Win",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Missed Losing Pen",
@@ -1999,7 +1999,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -3
+              "value": 4
             },
             {
               "name": "Assists",
@@ -2031,7 +2031,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": 50
+              "value": 7
             },
             {
               "name": "Passes Incomplete",
@@ -2055,7 +2055,7 @@
             },
             {
               "name": "Chances Created",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Open Play xA",
@@ -2111,27 +2111,27 @@
             },
             {
               "name": "Saves",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Good Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Great Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Saved Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Conceded",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Keeper less than 5 shot boost",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Yellow Card",
@@ -2155,7 +2155,7 @@
             },
             {
               "name": "Shootout Saved",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Winning Pen",
@@ -2163,7 +2163,7 @@
             },
             {
               "name": "Shootout Saved Pen to Win",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Missed Losing Pen",
@@ -2211,7 +2211,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -3
+              "value": 4
             },
             {
               "name": "Assists",
@@ -2243,7 +2243,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": 50
+              "value": 7
             },
             {
               "name": "Passes Incomplete",
@@ -2267,7 +2267,7 @@
             },
             {
               "name": "Chances Created",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Open Play xA",
@@ -2323,27 +2323,27 @@
             },
             {
               "name": "Saves",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Good Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Great Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Saved Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Conceded",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Keeper less than 5 shot boost",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Yellow Card",
@@ -2367,7 +2367,7 @@
             },
             {
               "name": "Shootout Saved",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Winning Pen",
@@ -2375,7 +2375,7 @@
             },
             {
               "name": "Shootout Saved Pen to Win",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Missed Losing Pen",
@@ -2423,7 +2423,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -3
+              "value": 4
             },
             {
               "name": "Assists",
@@ -2455,11 +2455,11 @@
             },
             {
               "name": "Passes Completed",
-              "value": 50
+              "value": 7
             },
             {
               "name": "Passes Incomplete",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Dribbles",
@@ -2479,11 +2479,11 @@
             },
             {
               "name": "Chances Created",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Open Play xA",
-              "value": 50
+              "value": 7
             },
             {
               "name": "Tackles Won",
@@ -2507,7 +2507,7 @@
             },
             {
               "name": "Clearances",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Mistakes Leading to Goals",
@@ -2515,7 +2515,7 @@
             },
             {
               "name": "Possession Won",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Aerial Duels Won",
@@ -2551,7 +2551,7 @@
             },
             {
               "name": "Penalties Conceded",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Keeper less than 5 shot boost",
@@ -2635,7 +2635,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -3
+              "value": 4
             },
             {
               "name": "Assists",
@@ -2667,7 +2667,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -19
+              "value": 5
             },
             {
               "name": "Passes Incomplete",
@@ -2691,11 +2691,11 @@
             },
             {
               "name": "Chances Created",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Open Play xA",
-              "value": 50
+              "value": 7
             },
             {
               "name": "Tackles Won",
@@ -2747,27 +2747,27 @@
             },
             {
               "name": "Saves",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Good Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Great Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Saved Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Conceded",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Keeper less than 5 shot boost",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Yellow Card",
@@ -2791,7 +2791,7 @@
             },
             {
               "name": "Shootout Saved",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Winning Pen",
@@ -2799,7 +2799,7 @@
             },
             {
               "name": "Shootout Saved Pen to Win",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Missed Losing Pen",
@@ -2847,7 +2847,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -3
+              "value": 4
             },
             {
               "name": "Assists",
@@ -2879,7 +2879,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": 50
+              "value": 7
             },
             {
               "name": "Passes Incomplete",
@@ -2903,7 +2903,7 @@
             },
             {
               "name": "Chances Created",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Open Play xA",
@@ -2959,27 +2959,27 @@
             },
             {
               "name": "Saves",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Good Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Great Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Saved Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Conceded",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Keeper less than 5 shot boost",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Yellow Card",
@@ -3003,7 +3003,7 @@
             },
             {
               "name": "Shootout Saved",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Winning Pen",
@@ -3011,7 +3011,7 @@
             },
             {
               "name": "Shootout Saved Pen to Win",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Missed Losing Pen",
@@ -3059,7 +3059,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -3
+              "value": 4
             },
             {
               "name": "Assists",
@@ -3091,7 +3091,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": 50
+              "value": 7
             },
             {
               "name": "Passes Incomplete",
@@ -3115,7 +3115,7 @@
             },
             {
               "name": "Chances Created",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Open Play xA",
@@ -3171,27 +3171,27 @@
             },
             {
               "name": "Saves",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Good Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Great Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Saved Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Conceded",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Keeper less than 5 shot boost",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Yellow Card",
@@ -3215,7 +3215,7 @@
             },
             {
               "name": "Shootout Saved",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Winning Pen",
@@ -3223,7 +3223,7 @@
             },
             {
               "name": "Shootout Saved Pen to Win",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Missed Losing Pen",
@@ -3271,7 +3271,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -3
+              "value": 4
             },
             {
               "name": "Assists",
@@ -3303,7 +3303,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": 50
+              "value": 7
             },
             {
               "name": "Passes Incomplete",
@@ -3327,7 +3327,7 @@
             },
             {
               "name": "Chances Created",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Open Play xA",
@@ -3383,27 +3383,27 @@
             },
             {
               "name": "Saves",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Good Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Great Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Saved Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Conceded",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Keeper less than 5 shot boost",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Yellow Card",
@@ -3427,7 +3427,7 @@
             },
             {
               "name": "Shootout Saved",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Winning Pen",
@@ -3435,7 +3435,7 @@
             },
             {
               "name": "Shootout Saved Pen to Win",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Missed Losing Pen",
@@ -3483,7 +3483,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -3
+              "value": 4
             },
             {
               "name": "Assists",
@@ -3515,7 +3515,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -19
+              "value": 5
             },
             {
               "name": "Passes Incomplete",
@@ -3539,11 +3539,11 @@
             },
             {
               "name": "Chances Created",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Open Play xA",
-              "value": 50
+              "value": 7
             },
             {
               "name": "Tackles Won",
@@ -3595,27 +3595,27 @@
             },
             {
               "name": "Saves",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Good Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Great Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Saved Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Conceded",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Keeper less than 5 shot boost",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Yellow Card",
@@ -3639,7 +3639,7 @@
             },
             {
               "name": "Shootout Saved",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Winning Pen",
@@ -3647,7 +3647,7 @@
             },
             {
               "name": "Shootout Saved Pen to Win",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Missed Losing Pen",
@@ -3695,7 +3695,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -3
+              "value": 4
             },
             {
               "name": "Assists",
@@ -3727,7 +3727,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": 50
+              "value": 7
             },
             {
               "name": "Passes Incomplete",
@@ -3751,7 +3751,7 @@
             },
             {
               "name": "Chances Created",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Open Play xA",
@@ -3807,27 +3807,27 @@
             },
             {
               "name": "Saves",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Good Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Great Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Saved Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Conceded",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Keeper less than 5 shot boost",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Yellow Card",
@@ -3851,7 +3851,7 @@
             },
             {
               "name": "Shootout Saved",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Winning Pen",
@@ -3859,7 +3859,7 @@
             },
             {
               "name": "Shootout Saved Pen to Win",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Missed Losing Pen",
@@ -3907,7 +3907,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -3
+              "value": 4
             },
             {
               "name": "Assists",
@@ -3939,7 +3939,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -19
+              "value": 5
             },
             {
               "name": "Passes Incomplete",
@@ -3963,11 +3963,11 @@
             },
             {
               "name": "Chances Created",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Open Play xA",
-              "value": 50
+              "value": 7
             },
             {
               "name": "Tackles Won",
@@ -4019,27 +4019,27 @@
             },
             {
               "name": "Saves",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Good Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Great Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Saved Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Conceded",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Keeper less than 5 shot boost",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Yellow Card",
@@ -4063,7 +4063,7 @@
             },
             {
               "name": "Shootout Saved",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Winning Pen",
@@ -4071,7 +4071,7 @@
             },
             {
               "name": "Shootout Saved Pen to Win",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Missed Losing Pen",
@@ -4119,7 +4119,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -3
+              "value": 4
             },
             {
               "name": "Assists",
@@ -4151,7 +4151,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": 50
+              "value": 7
             },
             {
               "name": "Passes Incomplete",
@@ -4175,7 +4175,7 @@
             },
             {
               "name": "Chances Created",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Open Play xA",
@@ -4231,27 +4231,27 @@
             },
             {
               "name": "Saves",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Good Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Great Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Saved Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Conceded",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Keeper less than 5 shot boost",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Yellow Card",
@@ -4275,7 +4275,7 @@
             },
             {
               "name": "Shootout Saved",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Winning Pen",
@@ -4283,7 +4283,7 @@
             },
             {
               "name": "Shootout Saved Pen to Win",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Missed Losing Pen",
@@ -4331,7 +4331,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -3
+              "value": 4
             },
             {
               "name": "Assists",
@@ -4363,7 +4363,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": 50
+              "value": 7
             },
             {
               "name": "Passes Incomplete",
@@ -4387,7 +4387,7 @@
             },
             {
               "name": "Chances Created",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Open Play xA",
@@ -4443,27 +4443,27 @@
             },
             {
               "name": "Saves",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Good Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Great Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Saved Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Conceded",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Keeper less than 5 shot boost",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Yellow Card",
@@ -4487,7 +4487,7 @@
             },
             {
               "name": "Shootout Saved",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Winning Pen",
@@ -4495,7 +4495,7 @@
             },
             {
               "name": "Shootout Saved Pen to Win",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Missed Losing Pen",
@@ -4543,7 +4543,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -3
+              "value": 4
             },
             {
               "name": "Assists",
@@ -4575,7 +4575,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -19
+              "value": 5
             },
             {
               "name": "Passes Incomplete",
@@ -4599,11 +4599,11 @@
             },
             {
               "name": "Chances Created",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Open Play xA",
-              "value": 50
+              "value": 7
             },
             {
               "name": "Tackles Won",
@@ -4655,27 +4655,27 @@
             },
             {
               "name": "Saves",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Good Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Great Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Saved Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Conceded",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Keeper less than 5 shot boost",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Yellow Card",
@@ -4699,7 +4699,7 @@
             },
             {
               "name": "Shootout Saved",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Winning Pen",
@@ -4707,7 +4707,7 @@
             },
             {
               "name": "Shootout Saved Pen to Win",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Missed Losing Pen",
@@ -4755,7 +4755,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -3
+              "value": 4
             },
             {
               "name": "Assists",
@@ -4787,7 +4787,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": 50
+              "value": 7
             },
             {
               "name": "Passes Incomplete",
@@ -4811,7 +4811,7 @@
             },
             {
               "name": "Chances Created",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Open Play xA",
@@ -4867,27 +4867,27 @@
             },
             {
               "name": "Saves",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Good Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Great Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Saved Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Conceded",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Keeper less than 5 shot boost",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Yellow Card",
@@ -4911,7 +4911,7 @@
             },
             {
               "name": "Shootout Saved",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Winning Pen",
@@ -4919,7 +4919,7 @@
             },
             {
               "name": "Shootout Saved Pen to Win",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Missed Losing Pen",
@@ -4967,7 +4967,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -3
+              "value": 4
             },
             {
               "name": "Assists",
@@ -4999,7 +4999,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": 50
+              "value": 7
             },
             {
               "name": "Passes Incomplete",
@@ -5023,7 +5023,7 @@
             },
             {
               "name": "Chances Created",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Open Play xA",
@@ -5079,27 +5079,27 @@
             },
             {
               "name": "Saves",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Good Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Great Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Saved Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Conceded",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Keeper less than 5 shot boost",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Yellow Card",
@@ -5123,7 +5123,7 @@
             },
             {
               "name": "Shootout Saved",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Winning Pen",
@@ -5131,7 +5131,7 @@
             },
             {
               "name": "Shootout Saved Pen to Win",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Missed Losing Pen",
@@ -5179,7 +5179,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -3
+              "value": 4
             },
             {
               "name": "Assists",
@@ -5211,7 +5211,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": 50
+              "value": 7
             },
             {
               "name": "Passes Incomplete",
@@ -5235,11 +5235,11 @@
             },
             {
               "name": "Chances Created",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Open Play xA",
-              "value": 50
+              "value": 7
             },
             {
               "name": "Tackles Won",
@@ -5291,27 +5291,27 @@
             },
             {
               "name": "Saves",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Good Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Great Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Saved Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Conceded",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Keeper less than 5 shot boost",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Yellow Card",
@@ -5335,7 +5335,7 @@
             },
             {
               "name": "Shootout Saved",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Winning Pen",
@@ -5343,7 +5343,7 @@
             },
             {
               "name": "Shootout Saved Pen to Win",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Missed Losing Pen",
@@ -5391,7 +5391,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -3
+              "value": 4
             },
             {
               "name": "Assists",
@@ -5423,7 +5423,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": 50
+              "value": 7
             },
             {
               "name": "Passes Incomplete",
@@ -5447,7 +5447,7 @@
             },
             {
               "name": "Chances Created",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Open Play xA",
@@ -5503,27 +5503,27 @@
             },
             {
               "name": "Saves",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Good Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Great Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Saved Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Conceded",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Keeper less than 5 shot boost",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Yellow Card",
@@ -5547,7 +5547,7 @@
             },
             {
               "name": "Shootout Saved",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Winning Pen",
@@ -5555,7 +5555,7 @@
             },
             {
               "name": "Shootout Saved Pen to Win",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Missed Losing Pen",
@@ -5603,7 +5603,7 @@
             },
             {
               "name": "Goals minus xG times 100 (only if negative)",
-              "value": -3
+              "value": 4
             },
             {
               "name": "Assists",
@@ -5635,7 +5635,7 @@
             },
             {
               "name": "Passes Completed",
-              "value": -19
+              "value": 5
             },
             {
               "name": "Passes Incomplete",
@@ -5659,11 +5659,11 @@
             },
             {
               "name": "Chances Created",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Open Play xA",
-              "value": 50
+              "value": 7
             },
             {
               "name": "Tackles Won",
@@ -5715,27 +5715,27 @@
             },
             {
               "name": "Saves",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Good Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Great Saves Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Saved Adder",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Penalties Conceded",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Keeper less than 5 shot boost",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Yellow Card",
@@ -5759,7 +5759,7 @@
             },
             {
               "name": "Shootout Saved",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Winning Pen",
@@ -5767,7 +5767,7 @@
             },
             {
               "name": "Shootout Saved Pen to Win",
-              "value": 2
+              "value": 0
             },
             {
               "name": "Shootout Missed Losing Pen",
