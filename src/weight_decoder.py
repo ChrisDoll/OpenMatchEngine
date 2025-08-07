@@ -2,6 +2,9 @@
 """
 weights_decoder.py — Hard-wired decoder for Football-Manager 24
 weights.jsb → weights.json
+
+The SeasonWeights dataclass and related logic have been reordered so that
+TPS_SLIGHTLY_RESERVE_PICKING comes *before* TPS_SEMI_RESERVE_PICKING.
 """
 
 from __future__ import annotations
@@ -75,8 +78,8 @@ class SeasonWeights:
     """Weights for one match-engine season/pack."""
     ME_VERSION: MEVersion
     TPS_FIRST_TEAM_PICKING: TeamPickingWeights
-    TPS_SEMI_RESERVE_PICKING: TeamPickingWeights
-    TPS_SLIGHTLY_RESERVE_PICKING: TeamPickingWeights
+    TPS_SLIGHTLY_RESERVE_PICKING: TeamPickingWeights   # ← now second
+    TPS_SEMI_RESERVE_PICKING: TeamPickingWeights       # ← now third
     TPS_TOTAL_RESERVE_PICKING: TeamPickingWeights
 
 
@@ -174,8 +177,8 @@ def _restructure(pairs: list[tuple[str, int | None]]) -> WeightsDoc:
             SeasonWeights(
                 ME_VERSION=me,
                 TPS_FIRST_TEAM_PICKING=pick("TPS_FIRST_TEAM_PICKING"),
-                TPS_SEMI_RESERVE_PICKING=pick("TPS_SEMI_RESERVE_PICKING"),
                 TPS_SLIGHTLY_RESERVE_PICKING=pick("TPS_SLIGHTLY_RESERVE_PICKING"),
+                TPS_SEMI_RESERVE_PICKING=pick("TPS_SEMI_RESERVE_PICKING"),
                 TPS_TOTAL_RESERVE_PICKING=pick("TPS_TOTAL_RESERVE_PICKING"),
             )
         )
@@ -186,8 +189,8 @@ def _restructure(pairs: list[tuple[str, int | None]]) -> WeightsDoc:
 # ───────── restore all prefixes before JSON ─────────
 _TPS_NAMES = {
     "TPS_FIRST_TEAM_PICKING",
-    "TPS_SEMI_RESERVE_PICKING",
     "TPS_SLIGHTLY_RESERVE_PICKING",
+    "TPS_SEMI_RESERVE_PICKING",
     "TPS_TOTAL_RESERVE_PICKING",
 }
 
