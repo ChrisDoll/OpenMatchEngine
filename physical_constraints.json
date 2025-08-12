@@ -1,6 +1,6 @@
 {
-  "very_slow_walk_speed": 4700,
-  "slow_walk_speed": 9200,
+  "very_slow_walk_speed": 4600,
+  "slow_walk_speed": 9100,
   "walk_speed": 13410,
   "fast_walk_speed": 19500,
   "slow_jog_speed": 24500,
